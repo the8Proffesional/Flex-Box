@@ -49,4 +49,52 @@ whene flex-wrap is set to wrap or wrap-reverse
     align-content: normal (default) | flex-start | center | flex-end | center | space-around | space-between | space-evenly | stretch;
 }
 ```
+* Gap between elements
+```css
+.ClassName {
+    gap : value value;
+    row-gap: value;
+    column-gap: value;
+}
+```
 
+## Children
+
+* Order
+```css
+.ChildClassName {
+    order: 0 (default) number;
+}
+```
+* Flex-grow
+```css
+.ChildClassName {
+    flex-grow: 1 (default) number;
+}
+```
+* Flex-shrink
+```css
+.ChildClassName {
+    flex-shrink: 1 (default) number;
+}
+```
+* Flex-basis
+```css
+.ChildClassName {
+    flex-basis: auto (default) value;
+}
+```
+* Flex
+```css
+.ChildClassName {
+    flex: none | [ <flex-grow> <flex-shrink> <flex-basis> ];
+}
+```
+
+* Flex align
+```css
+.ChildClassName {
+    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+}
+```
